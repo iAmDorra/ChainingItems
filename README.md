@@ -9,6 +9,7 @@ An item has those properties :
 The goal is to get out chains from the collection.
 
 Let's get a scenario :
+```bash
 	Given those items :
 	{ id = 1, previousItemId = 2, followingItemId = 3 },
 	{ id = 2, previousItemId = 4, followingItemId = 1 },
@@ -28,5 +29,6 @@ Let's get a scenario :
 	{6, 7},
 	{10},
 	{11}
+```
 
 Enjoy :)
